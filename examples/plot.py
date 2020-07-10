@@ -20,7 +20,7 @@ def get_ordered_list_of_bitstrings(num_qubits):
     return bitstrings
 
 # Insert the path to your JSON file here
-with open('./examples/d4156401-6f3d-50c7-80d2-11f6fe30f233.json') as f:
+with open('./d4156401-6f3d-50c7-80d2-11f6fe30f233.json') as f:
     data = json.load(f)
 
 # Extract lists of energies, bond lengths, and basis sets.
